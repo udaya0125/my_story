@@ -1,0 +1,56 @@
+{
+  "stories": [
+    {
+      "id": 1,
+      "title": "Sweet Memory of her",
+      "excerpt": "A story of love, loss, and the enduring power of memory. When a young woman discovers a hidden journal in her grandmother's attic, she uncovers a tale of forbidden love and sacrifice that changes everything she thought she knew about her family.",
+      "image": "https://images.pexels.com/photos/3646105/pexels-photo-3646105.jpeg",
+      "theme": "Love & Memory",
+      "color": "text-[#FE7743]",
+      "author": "Udaya Adhikari",
+      "publishedDate": "Midsummer, 2024",
+      "readTime": "15 min read",
+      "genre": ["Historical Fiction", "Romance", "Family Saga"],
+      "fullStory": "Comming Soon",
+      "quotes": [
+        "\"Comming Soon\"",
+        "\"Comming Soon\""
+      ]
+    },
+    {
+      "id": 2,
+      "title": "First Love",
+      "excerpt": "A story of first love, innocence, and the unforgettable moments that define a young heart. When a shy teenager meets a charismatic classmate in the school library, their connection is instant and profound. As they grow closer, they discover that love is not just about butterflies and dreams—it's about understanding, acceptance, and the courage to be vulnerable.",
+      "image": "https://images.pexels.com/photos/3646105/pexels-photo-3646105.jpeg",
+      "theme": "Innocent Love & Self-Discovery",
+      "color": "text-[#FE7743]",
+      "author": "Udaya Adhikari",
+      "publishedDate": "Spring Equinox, 2024",
+      "readTime": "12 min read",
+      "genre": ["Young Adult", "Romance", "Coming-of-Age"],
+      "fullStory": "Comming Soon",
+      "quotes": [
+        "\"Comming Soon\"",
+        "\"Comming Soon\""
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The Silent Love Story",
+      "excerpt": "A story of Silent love, heartbreak, and the bittersweet memories that linger long after the relationship has ended. When a young man meets a girl in the library, their connection is instant and profound, but fate has other plans. As they navigate the highs and lows of their relationship, they learn that sometimes, love is not enough to overcome the obstacles that life throws their way.",
+      "image": "https://images.pexels.com/photos/3646105/pexels-photo-3646105.jpeg",
+      "theme": "Unspoken Love & Memory",
+      "color": "text-[#4A6FA5]",
+      "author": "Udaya Adhikari",
+      "publishedDate": "February 14, 2026",
+      "readTime": "5 min read",
+      "genre": ["Romance", "Memoir", "Contemporary"],
+      "fullStory": "Hello, my name is Udaya Adhikari. Today I am going to share a beautiful story of my life. This story is about a girl I once saw in the library. I saw you sitting quietly in the corner of the library, reading books. The very first moment I saw you, it felt like the whole world stopped breathing. Everything went silent, and then suddenly it felt like the world began to singing with soft voice and playing some romantic background music. After that day, I started visiting the library every single day just to see you once again, even though I am not good at studying. The books didn't matter anymore. Only you did. My eyes were always searching for yours. I tried so hard to make eye contact with you, but it never happened. Still, I kept hoping, day after day.\n\nWithout ever speaking to me, you taught me what love is and how beautiful it can be. And without ever knowing it, I started loving you deeply. But I never had the courage to confess my feelings or tell you how much you truly meant to me. The days when I couldn't see you felt empty. I never had the courage to talk to you. I never knew your name. I never knew anything about you. I never even heard your voice. Yet somehow, you became one of the most important stories of my life. One day, you vanished without any notice. I kept searching for you everywhere. I started visiting that library every day, hoping I would see you once again—just to ask your name and to hear your beautiful voice.\n\nDays turned into weeks, and weeks slowly turned into years. The chair where you used to sit stayed empty, and the corner of the library felt colder than before. I kept going there, pretending to read, pretending not to look around, but my eyes were always searching for you. Every time the door opened, my heart hoped it was you. Every time it wasn't, my heart broke a little more. I never got to ask your name. I never got to hear your voice. I never got to tell you that you were the reason I believed in love. You became a memory without a beginning and a story without an ending. A love that never started, yet never really ended. Even today, when I pass by that library, my heart still looks for you. And I realize something painful—Some people enter our lives only to teach us what love feels like… and then leave, without ever knowing they were loved. And maybe that is how this story was meant to end.",
+      "quotes": [
+        "\"You became a memory without a beginning and a story without an ending.\"",
+        "\"A love that never started, yet never really ended.\"",
+        "\"Without ever speaking to me, you taught me what love is and how beautiful it can be.\""
+      ]
+    }
+  ]
+}
