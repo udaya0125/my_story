@@ -107,9 +107,9 @@ const Navigation = ({ onMenuToggle, menuOpen: externalMenuOpen }) => {
       path: "/story",
       icon: BookOpen,
       items: [
-        { name: "Origins & Heritage", path: "/story/origins" },
-        { name: "The Journey", path: "/story/journey" },
-        { name: "Our Characters", path: "/story/characters" },
+        { name: "The Silent Love Story", path: "/story/3" },
+        { name: "The Love I Learned to Believe In", path: "/story/2" },
+        { name: "Sweet Memory of her", path: "/story/1" },
         // { name: 'The World', path: '/story/world' }
       ],
     },
@@ -118,9 +118,9 @@ const Navigation = ({ onMenuToggle, menuOpen: externalMenuOpen }) => {
       path: "/realms",
       icon: Sparkles,
       items: [
-        { name: "Mystic Forest", path: "/realms/mystic-forest" },
-        { name: "Crystal Caves", path: "/realms/crystal-caves" },
-        { name: "Sky Islands", path: "/realms/sky-islands" },
+        { name: "Story 4", path: "/story/4" },
+        { name: "Story 5", path: "/story/5" },
+        { name: "Story 6", path: "/story/6" },
         // { name: 'Ancient Temple', path: '/realms/ancient-temple' }
       ],
     },
