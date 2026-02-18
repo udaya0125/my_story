@@ -107,9 +107,9 @@ const Navigation = ({ onMenuToggle, menuOpen: externalMenuOpen }) => {
       path: "/story",
       icon: BookOpen,
       items: [
-        { name: "The Silent Love Story", path: "/story/3" },
-        { name: "The Love I Learned to Believe In", path: "/story/2" },
-        { name: "Sweet Memory of her", path: "/story/1" },
+        { name: "The Silent Love Story", path: "/story/2" },
+        { name: "The Love I Learned to Believe In", path: "/story/coming-soon" },
+        { name: "Sweet Memory of her", path: "/story/coming-soon" },
         // { name: 'The World', path: '/story/world' }
       ],
     },
@@ -118,9 +118,9 @@ const Navigation = ({ onMenuToggle, menuOpen: externalMenuOpen }) => {
       path: "/realms",
       icon: Sparkles,
       items: [
-        { name: "Story 4", path: "/story/4" },
-        { name: "Story 5", path: "/story/5" },
-        { name: "Story 6", path: "/story/6" },
+        { name: "Story 4", path: "/story/coming-soon" },
+        { name: "Story 5", path: "/story/coming-soon" },
+        { name: "Story 6", path: "/story/coming-soon" },
         // { name: 'Ancient Temple', path: '/realms/ancient-temple' }
       ],
     },
@@ -129,9 +129,9 @@ const Navigation = ({ onMenuToggle, menuOpen: externalMenuOpen }) => {
       path: "/characters",
       icon: Users,
       items: [
-        { name: "Elder Spirits", path: "/characters/elder-spirits" },
-        { name: "Guardians", path: "/characters/guardians" },
-        { name: "Mythical Beings", path: "/characters/mythical-beings" },
+        { name: "Story 6", path: "/story/coming-soon" },
+        { name: "Story 7", path: "/story/coming-soon" },
+        { name: "Story 8", path: "/story/coming-soon" },
         // { name: 'The Prophecy', path: '/characters/prophecy' }
       ],
     },
@@ -140,10 +140,10 @@ const Navigation = ({ onMenuToggle, menuOpen: externalMenuOpen }) => {
       path: "/legends",
       icon: Leaf,
       items: [
-        { name: "Tales of Old", path: "/legends/tales-of-old" },
-        { name: "Sacred Rituals", path: "/legends/sacred-rituals" },
-        { name: "Myths & Mysteries", path: "/legends/myths-mysteries" },
-        { name: "The Lost Chapter", path: "/legends/lost-chapter" },
+        { name: "Story 9", path: "/story/coming-soon" },
+        { name: "Story 10", path: "/story/coming-soon" },
+        { name: "Story 11", path: "/story/coming-soon" },
+        { name: "Story 12", path: "/story/coming-soon" },
       ],
     },
     {
@@ -151,10 +151,10 @@ const Navigation = ({ onMenuToggle, menuOpen: externalMenuOpen }) => {
       path: "/chronicles",
       icon: Heart,
       items: [
-        { name: "Book I: Awakening", path: "/chronicles/awakening" },
-        { name: "Book II: Discovery", path: "/chronicles/discovery" },
-        { name: "Book III: Destiny", path: "/chronicles/destiny" },
-        { name: "Book IV: Legacy", path: "/chronicles/legacy" },
+        { name: "Story 13", path: "/story/coming-soon" },
+        { name: "Story 14", path: "/story/coming-soon" },
+        { name: "Story 15", path: "/story/coming-soon" },
+        { name: "Story 16", path: "/story/coming-soon" },
       ],
     },
   ];
