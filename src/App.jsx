@@ -15,7 +15,7 @@ const App = () => {
           <Route path="/insn00002/details" element={<INSN00002 />} />
           <Route path="/insn00003/details" element={<INSN00003 />} /> */}
           <Route path="*" element={<h1>404 Not Found</h1>} />
-          <Route path='/coming-soon' element={<CommingSoon />} />
+          <Route path='/story/coming-soon' element={<CommingSoon />} />
         </Routes>
       </BrowserRouter>
     </>
