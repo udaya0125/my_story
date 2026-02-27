@@ -107,7 +107,7 @@ const Navigation = ({ onMenuToggle, menuOpen: externalMenuOpen }) => {
       path: "/story",
       icon: BookOpen,
       items: [
-        { name: "The Silent Love Story", path: "/story/2" },
+        { name: "The Silent Love Story", path: "/story/the-silent-love-story" },
         { name: "The Love I Learned to Believe In", path: "/story/coming-soon" },
         { name: "Sweet Memory of her", path: "/story/coming-soon" },
         // { name: 'The World', path: '/story/world' }
