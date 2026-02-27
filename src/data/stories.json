@@ -3,6 +3,7 @@
     {
       "id": 1,
       "title": "Sweet Memory of her",
+      "slug": "sweet-memory-of-her",
       "excerpt": "A story of love, loss, and the enduring power of memory. When a young woman discovers a hidden journal in her grandmother's attic, she uncovers a tale of forbidden love and sacrifice that changes everything she thought she knew about her family.",
       "image": "https://images.pexels.com/photos/3646105/pexels-photo-3646105.jpeg",
       "theme": "Love & Memory",
@@ -18,6 +19,7 @@
     {
       "id": 2,
       "title": "The Silent Love Story",
+      "slug": "the-silent-love-story",
       "excerpt": "A story of Silent love, heartbreak, and the bittersweet memories that linger long after the relationship has ended. When a young man meets a girl in the library, their connection is instant and profound, but fate has other plans. As they navigate the highs and lows of their relationship, they learn that sometimes, love is not enough to overcome the obstacles that life throws their way.",
       "image": "https://images.pexels.com/photos/3646105/pexels-photo-3646105.jpeg",
       "theme": "Unspoken Love & Memory",

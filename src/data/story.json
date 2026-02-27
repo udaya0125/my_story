@@ -3,6 +3,7 @@
     {
       "id": 1,
       "title": "Sweet Memory of her",
+      "slug": "sweet-memory-of-her",
       "excerpt": "A story of love, loss, and the enduring power of memory. When a young woman discovers a hidden journal in her grandmother's attic, she uncovers a tale of forbidden love and sacrifice that changes everything she thought she knew about her family.",
       "image": "https://images.pexels.com/photos/3646105/pexels-photo-3646105.jpeg",
       "theme": "Love & Memory",
@@ -12,10 +13,7 @@
       "readTime": "15 min read",
       "genre": ["Fantasy", "Adventure", "Friendship"],
       "fullStory": "Comming Soon",
-      "quotes": [
-        "\"Comming Soon\"",
-        "\"Comming Soon\""
-      ]
+      "quotes": ["\"Comming Soon\"", "\"Comming Soon\""]
     },
     {
       "id": 2,
@@ -56,6 +54,7 @@
     {
       "id": 4,
       "title": "Chronicles of the Astral Mages",
+      "slug": "chronicles-of-the-astral-mages",
       "excerpt": "A guild of stargazer mages must unlock celestial secrets to prevent a cosmic prophecy that threatens to unravel the very fabric of reality.",
       "image": "https://images.pexels.com/photos/3646105/pexels-photo-3646105.jpeg",
       "theme": "Magic & Prophecy",
@@ -73,6 +72,7 @@
     {
       "id": 5,
       "title": "The Pirate Queen's Compass",
+      "slug": "the-pirate-queens-compass",
       "excerpt": "On the treacherous Sapphire Seas, a cunning pirate captain searches for a legendary compass that points not to treasure, but to forgotten truths.",
       "image": "https://images.pexels.com/photos/3646105/pexels-photo-3646105.jpeg",
       "theme": "Freedom & Discovery",
@@ -90,6 +90,7 @@
     {
       "id": 6,
       "title": "The Alchemist's Promise",
+      "slug": "the-alchemists-promise",
       "excerpt": "In a city where science outshines magic, a reclusive alchemist risks everything to create a philosopher's stone that could save his dying sister.",
       "image": "https://images.pexels.com/photos/3646105/pexels-photo-3646105.jpeg",
       "theme": "Sacrifice & Love",
@@ -104,9 +105,10 @@
         "\"Science measures what is. Alchemy explores what could be. But love transcends both.\""
       ]
     },
-        {
+    {
       "id": 4,
       "title": "The Love I Learned to Believe In",
+       "slug": "the-love-i-learned-to-believe-in",
       "excerpt": "Before her, love was just a word. After her, it became faith. A heartfelt journey of patience, friendship, growth, and a love that blossomed from the simplest moments.",
       "image": "https://images.pexels.com/photos/3646105/pexels-photo-3646105.jpeg",
       "theme": "Innocent Love & Self-Discovery",
@@ -121,9 +123,10 @@
         "\"She was not just my first love; she became my forever.\""
       ]
     },
-        {
+    {
       "id": 2,
       "title": "The Love I Learned to Believe In",
+       "slug": "the-love-i-learned-to-believe-in",
       "excerpt": "Before her, love was just a word. After her, it became faith. A heartfelt journey of patience, friendship, growth, and a love that blossomed from the simplest moments.",
       "image": "https://images.pexels.com/photos/3646105/pexels-photo-3646105.jpeg",
       "theme": "Innocent Love & Self-Discovery",
