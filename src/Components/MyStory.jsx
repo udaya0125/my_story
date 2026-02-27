@@ -394,7 +394,9 @@ const MyStory = () => {
                             </h2>
                         </div>
                         <span className="text-[#8F7A6B] text-sm font-mono tracking-wider bg-white/60 px-4 py-2 rounded-full border border-[#EAD7C5]">
-                            {stories.length} tales
+                            <Link to="/story">
+                                View All Stories
+                            </Link>
                         </span>
                     </div>
                     
