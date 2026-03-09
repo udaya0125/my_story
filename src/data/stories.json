@@ -40,9 +40,9 @@
     },
     {
       "id": 3,
-      "title": "Sweet Memory of her-A Story of Love, Loss, and Enduring Memory",
-      "slug": "sweet-memory-of-her-a-story-of-love-loss-and-enduring-memory",
-      "excerpt": "A story of love, loss, and the enduring power of memory. When a young woman discovers a hidden journal in her grandmother's attic, she uncovers a tale of forbidden love and sacrifice that changes everything she thought she knew about her family.",
+      "title": "When the World Went Quiet",
+      "slug": "when-the-world-went-quiet",
+      "excerpt": "At his brother’s wedding, amid the noise of celebration and countless faces, one quiet moment changes everything. When their eyes meet across the crowded hall, a simple conversation begins a journey of memories, late-night calls, and a love that turns the noise of the world into a beautiful melody.",
       "image": "https://images.pexels.com/photos/3646105/pexels-photo-3646105.jpeg",
       "theme": "Love & Memory",
       "color": "text-[#FE7743]",
@@ -51,7 +51,10 @@
       "readTime": "15 min read",
       "genre": ["Fantasy", "Adventure", "Friendship"],
       "fullStory": "Comming Soon",
-      "quotes": ["\"Comming Soon\"", "\"Comming Soon\""]
+      "quotes": [
+        "\"My memory of her hasn't faded, not because it's perfect, but because it's the moment the noise of the world finally found a melody.\"",
+        "\"The world gets loud sometimes. Life gets hard. But when I look at her, the noise fades out. It's just the music—still playing, still beautiful.\""
+      ]
     }
   ]
 }
