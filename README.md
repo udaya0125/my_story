@@ -1,16 +1,123 @@
-# React + Vite
+# My Story
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and beautiful story-based website built to share a personal story and emotions through a clean web interface.
 
-Currently, two official plugins are available:
+🌐 **Live Website:**  
+https://my-story-nine-pi.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📖 About The Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**My Story** is a small web project designed to present a meaningful story in a simple and engaging way.  
+The website focuses on clean design, readability, and emotional storytelling.
 
-## Expanding the ESLint configuration
+This project is hosted on **Vercel** for fast and reliable deployment.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- Simple and clean UI
+- Responsive design (works on mobile and desktop)
+- Fast loading website
+- Deployed using Vercel
+- Easy to customize and edit
+
+---
+
+## 🛠️ Tech Stack
+
+This project may use the following technologies:
+
+- HTML5
+- CSS3
+- JavaScript
+- React / Next.js *(if used)*
+- Vercel for deployment
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/your-repository-name.git
+```
+
+### 2️⃣ Open the project folder
+
+```bash
+cd your-repository-name
+```
+
+### 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Run the development server
+
+```bash
+npm run dev
+```
+
+Then open:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 📦 Build Project
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+---
+
+## 🌍 Deployment
+
+This project is deployed using **Vercel**.
+
+To deploy your own version:
+
+1. Push your project to GitHub
+2. Go to https://vercel.com
+3. Import your GitHub repository
+4. Deploy instantly
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+If you want to improve this project:
+
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
+
+---
+
+## 📄 License
+
+This project is open source and available under the **MIT License**.
+
+---
+
+## 👤 Author
+
+**Udaya Adhikari**
+
+If you like this project, consider giving it a ⭐ on GitHub!
