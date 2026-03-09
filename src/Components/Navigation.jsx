@@ -108,7 +108,10 @@ const Navigation = ({ onMenuToggle, menuOpen: externalMenuOpen }) => {
       icon: BookOpen,
       items: [
         { name: "The Silent Love Story", path: "/story/the-silent-love-story" },
-        { name: "The Love I Learned to Believe In", path: "/story/coming-soon" },
+        {
+          name: "The Love I Learned to Believe In",
+          path: "/story/coming-soon",
+        },
         { name: "Sweet Memory of her", path: "/story/coming-soon" },
         // { name: 'The World', path: '/story/world' }
       ],
@@ -214,7 +217,7 @@ const Navigation = ({ onMenuToggle, menuOpen: externalMenuOpen }) => {
           {/* Right Side Buttons */}
           <div className="flex items-center gap-3 sm:gap-6">
             <Link
-              to="/begin-journey"
+              to="/story"
               className={`
                                 flex items-center gap-1 rounded-full sm:gap-2 px-4 py-2
                                 transition-all duration-300 ${bookButtonHover}
