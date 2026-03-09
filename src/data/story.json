@@ -1,10 +1,10 @@
 {
   "stories": [
     {
-      "id": 1,
-      "title": "Sweet Memory of her",
-      "slug": "sweet-memory-of-her",
-      "excerpt": "A story of love, loss, and the enduring power of memory. When a young woman discovers a hidden journal in her grandmother's attic, she uncovers a tale of forbidden love and sacrifice that changes everything she thought she knew about her family.",
+      "id": 3,
+      "title": "When the World Went Quiet",
+      "slug": "when-the-world-went-quiet",
+      "excerpt": "At his brother’s wedding, amid the noise of celebration and countless faces, one quiet moment changes everything. When their eyes meet across the crowded hall, a simple conversation begins a journey of memories, late-night calls, and a love that turns the noise of the world into a beautiful melody.",
       "image": "https://images.pexels.com/photos/3646105/pexels-photo-3646105.jpeg",
       "theme": "Love & Memory",
       "color": "text-[#FE7743]",
@@ -12,12 +12,31 @@
       "publishedDate": "Midsummer, 2024",
       "readTime": "15 min read",
       "genre": ["Fantasy", "Adventure", "Friendship"],
+      "fullStory": "My memory of her hasn't faded, not because it's perfect, but because it's the moment the noise of the world finally found a melody.\n\nIt was my brother's wedding. The hall was a blur of heat, perfume, and the overwhelming hum of a hundred conversations. There were flashing lights, children darting between legs, and the clinking of cutlery. It was chaotic, beautiful, and loud. But then, the chaos seemed to dull, like someone had turned down the volume on everything except one corner of the room.\n\nThat's where I saw her.\n\nShe wasn't performing for the crowd. She was sitting quietly on a velvet chair, leaning in to listen to her sister, a half-smile playing on her lips. She looked grounded, a still point in a spinning room. When I looked at her, I didn't feel lightning strike; I felt something quieter, heavier. It was a sudden, sharp awareness that something important was happening.\n\nThen, she looked up.\n\nOur eyes met across the crowded room. It wasn't a cinematic freeze-frame. It was fleeting, maybe two seconds. She looked away first, tucking a strand of hair behind her ear, but my chest tightened. My heart wasn't racing like a drum; it was stumbling, unsure of its rhythm. I didn't know her name, but I knew, with a frightening clarity, that I needed to.\n\nI wanted to walk over. I rehearsed opening lines in my head—Hi, I'm the groom's brother—but my feet felt rooted to the floor. For an hour, I orbited her. I'd catch a glimpse of her laugh, then she'd be swallowed by the crowd again. Every time she disappeared, a small panic rose in my throat.\n\nFinally, the music shifted to a slower tempo. I told myself: Now or never.\n\nI walked over, my palms slightly damp. When I stood in front of her, the confidence I'd practiced evaporated.\n\"Hi,\" I said, my voice cracking just a little. \"I... I didn't want the night to end without introducing myself.\"\n\nShe looked up, surprised, but her eyes weren't wary. They were warm. She smiled, and it wasn't a polished, camera-ready smile. It was shy, genuine, and it reached her eyes. That smile did more than the lights in the hall ever could; it made the space around us feel private.\n\nWe talked for ten minutes. Just ten. We talked about the food, the heat, how long we'd known my brother. Nothing profound. But when she laughed at something stupid I said, I felt a sense of relief I couldn't explain. Before she could be pulled away by family duties, I asked for her contact.\n\nAs the night wound down, guests began to thin out. I felt a hollow ache in my stomach. The magic was going to vanish with the sunrise. I saw a nearby arrangement of flowers, a few blooms slightly loose from their stems. I gently freed a single red rose and a small white lily.\n\nI found her near the exit.\n\"For the road,\" I said, offering them. \"The red one is for the celebration. The white one... for the quiet moment earlier.\"\n\nShe took them, her fingers brushing mine. \"Thank you,\" she said softly. \"I was wondering if you'd come say goodbye.\"\n\nThat small admission stayed with me long after she left.\n\nThe weeks that followed weren't a fairy tale. There were days of silence, busy schedules, and the awkward dance of getting to know a stranger through a screen. But slowly, the messages grew longer. We moved from polite emojis to voice notes, then to late-night calls.\n\nShe became a habit I didn't want to break.\n\nWhen we finally met again, a month later, for coffee, the nervousness returned. When she walked in, wearing a simple blue dress, the air left my lungs just like at the wedding.\n\nWe talked, laughed, and wondered what this connection meant.\n\nOutside, near her car, I finally said what had been on my mind.\n\"I haven't been able to stop thinking about you since the moment I saw you.\"\n\nShe looked down, then back up.\n\"I was hoping,\" she whispered, \"that you weren't just being polite either.\"\n\nShe reached out and took my hand.\n\nIt wasn't dramatic. There were no fireworks. Just the quiet certainty that we both felt the same.\n\nLife didn't suddenly become perfect. We walked through the messy, ordinary parts of life together—the stress, the laughter, the quiet mornings.\n\nAnd even now, years later, when the house is quiet and I catch her humming in the kitchen or reading on the couch, I feel that same shift in the atmosphere.\n\nThe world gets loud sometimes. Life gets hard.\n\nBut when I look at her, the noise fades out.\n\nIt's just the music. Still playing. Still beautiful.",
+      "quotes": [
+        "\"My memory of her hasn't faded, not because it's perfect, but because it's the moment the noise of the world finally found a melody.\"",
+        "\"The world gets loud sometimes. Life gets hard. But when I look at her, the noise fades out. It's just the music—still playing, still beautiful.\""
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The House That Breathed",
+      "slug": "the-house-that-breathed",
+      "excerpt": "In a forgotten village, an ancient house holds a secret—it breath",
+      "image": "https://images.pexels.com/photos/3646105/pexels-photo-3646105.jpeg",
+      "theme": "Love & Memory",
+      "color": "text-[#FE7743]",
+      "author": "Prinjal Poudel",
+      "publishedDate": "Midsummer, 2024",
+      "readTime": "15 min read",
+      "genre": ["Fantasy", "Adventure", "Friendship"],
       "fullStory": "Comming Soon",
       "quotes": ["\"Comming Soon\"", "\"Comming Soon\""]
     },
     {
-      "id": 2,
-      "title": "Sweet Memory",
+      "id": 5,
+      "title": "The Destiny of Eldoria",
+      "slug": "the-destiny-of-eldoria",
       "excerpt": "In a realm where magic flowed like rivers, a young heir discovers her destiny to restore the ancient kingdom of Eldoria from the shadows of oblivion.",
       "image": "https://images.pexels.com/photos/3646105/pexels-photo-3646105.jpeg",
       "theme": "Destiny & Heritage",
@@ -108,7 +127,7 @@
     {
       "id": 4,
       "title": "The Love I Learned to Believe In",
-       "slug": "the-love-i-learned-to-believe-in",
+      "slug": "the-love-i-learned-to-believe-in",
       "excerpt": "Before her, love was just a word. After her, it became faith. A heartfelt journey of patience, friendship, growth, and a love that blossomed from the simplest moments.",
       "image": "https://images.pexels.com/photos/3646105/pexels-photo-3646105.jpeg",
       "theme": "Innocent Love & Self-Discovery",
@@ -126,7 +145,7 @@
     {
       "id": 2,
       "title": "The Love I Learned to Believe In",
-       "slug": "the-love-i-learned-to-believe-in",
+      "slug": "the-love-i-learned-to-believe-in",
       "excerpt": "Before her, love was just a word. After her, it became faith. A heartfelt journey of patience, friendship, growth, and a love that blossomed from the simplest moments.",
       "image": "https://images.pexels.com/photos/3646105/pexels-photo-3646105.jpeg",
       "theme": "Innocent Love & Self-Discovery",
