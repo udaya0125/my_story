@@ -364,7 +364,7 @@ import { Link } from 'react-router-dom';
 import storiesData from '../data/stories.json';
 
 const MyStory = () => {
-    const stories = storiesData.stories;
+    const stories = storiesData.stories.slice(0, 3);
 
     return (
         <section className="relative w-full bg-[#FFFDF6] overflow-hidden font-serif">

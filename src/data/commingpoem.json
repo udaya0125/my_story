@@ -1,0 +1,76 @@
+{
+  "poems": [
+    {
+      "id": 1,
+      "title": "Lanterns in the Rain",
+      "slug": "lanterns-in-the-rain",
+      "excerpt": "We walked where the evening softened, and every drop was a tiny bell. The sky held its breath and the streets glowed like lanterns in the rain.",
+      "image": "https://images.pexels.com/photos/1410226/pexels-photo-1410226.jpeg",
+      "theme": "Rain & Memory",
+      "author": "Udaya Adhikari",
+      "publishedDate": "March 2026",
+      "readTime": "2 min read",
+      "fullPoem": "We walked where the evening softened,\nAnd every drop was a tiny bell.\nThe sky held its breath in silver,\nAnd the streets glowed like lanterns in the rain.\n\nYour silence was a warm umbrella,\nMy heart a pocket full of sparks.\nWe did not speak, yet all the music\nFound its way between the dark."
+    },
+    {
+      "id": 2,
+      "title": "Paper Boats",
+      "slug": "paper-boats",
+      "excerpt": "I folded my wishes into small boats and set them down the gutter river. They floated past old laughter and new beginnings.",
+      "image": "https://images.pexels.com/photos/1544371/pexels-photo-1544371.jpeg",
+      "theme": "Hope & Journey",
+      "author": "Udaya Adhikari",
+      "publishedDate": "March 2026",
+      "readTime": "1 min read",
+      "fullPoem": "I folded my wishes into small boats\nAnd set them down the gutter river.\nThey floated past old laughter,\nPast the gate where summers start.\n\nIf one returns with salt on its tongue,\nI will know the sea remembers me."
+    },
+    {
+      "id": 3,
+      "title": "Windowlight",
+      "slug": "windowlight",
+      "excerpt": "Morning spills its quiet across the room, and for a moment even the shadows are kind.",
+      "image": "https://images.pexels.com/photos/1028725/pexels-photo-1028725.jpeg",
+      "theme": "Morning & Peace",
+      "author": "Udaya Adhikari",
+      "publishedDate": "March 2026",
+      "readTime": "2 min read",
+      "fullPoem": "Morning spills its quiet across the room,\nA soft gold tide on the wooden floor.\nFor a moment even the shadows are kind,\nAnd the world chooses gentleness.\n\nI drink the light like a new promise,\nAnd let the day begin."
+    },
+    {
+      "id": 4,
+      "title": "Letters Never Sent",
+      "slug": "letters-never-sent",
+      "excerpt": "There are letters I never sent, each one folded with care and held like a secret in the pocket of time.",
+      "image": "https://images.pexels.com/photos/2628105/pexels-photo-2628105.jpeg",
+      "theme": "Silence & Love",
+      "author": "Udaya Adhikari",
+      "publishedDate": "February 2026",
+      "readTime": "2 min read",
+      "fullPoem": "There are letters I never sent,\nEach one folded with care.\nWords I kept like pressed flowers\nIn the pocket of time.\n\nIf you ever find them,\nKnow they were written\nWith the patience of rain."
+    },
+    {
+      "id": 5,
+      "title": "After the Festival",
+      "slug": "after-the-festival",
+      "excerpt": "The city quiets after the music, and the lantern strings sway like tired smiles.",
+      "image": "https://images.pexels.com/photos/1547813/pexels-photo-1547813.jpeg",
+      "theme": "Night & Reflection",
+      "author": "Udaya Adhikari",
+      "publishedDate": "January 2026",
+      "readTime": "2 min read",
+      "fullPoem": "After the festival, the city quiets.\nLantern strings sway like tired smiles.\nFootsteps fade into soft streets,\nAnd the night folds itself in.\n\nI walk home with your laughter\nStill warm in my coat."
+    },
+    {
+      "id": 6,
+      "title": "The Hill of Quiet",
+      "slug": "the-hill-of-quiet",
+      "excerpt": "We climbed until the noise fell away, and the wind taught us how to listen.",
+      "image": "https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg",
+      "theme": "Silence & Sky",
+      "author": "Udaya Adhikari",
+      "publishedDate": "December 2025",
+      "readTime": "2 min read",
+      "fullPoem": "We climbed until the noise fell away,\nAnd the wind taught us how to listen.\nBelow, the valley gathered its lights.\nAbove, the sky opened like a book.\n\nIn that quiet, we learned\nHow vast a heartbeat can be."
+    }
+  ]
+}

@@ -159,6 +159,24 @@
         "\"Love isn’t about big promises. It’s about small moments, pure intentions, and growing together every day.\"",
         "\"She wasn’t just my first love—she became my forever.\""
       ]
+    },
+    {
+      "id": 2,
+      "title": "Not Available",
+      "slug": "not-available",
+      "excerpt": "",
+      "image": "https://images.pexels.com/photos/3646105/pexels-photo-3646105.jpeg",
+      "theme": "Not Available",
+      "color": "text-[#FE7743]",
+      "author": "Udaya Adhikari",
+      "publishedDate": "Spring Equinox, 2024",
+      "readTime": "12 min read",
+      "genre": ["Young Adult", "Romance", "Coming-of-Age"],
+      "fullStory": "Comming Soon.....",
+      "quotes": [
+        "\"Comming Soon\"",
+        "\"Comming Soon\""
+      ]
     }
   ]
 }

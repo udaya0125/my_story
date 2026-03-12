@@ -55,6 +55,24 @@
         "\"My memory of her hasn't faded, not because it's perfect, but because it's the moment the noise of the world finally found a melody.\"",
         "\"The world gets loud sometimes. Life gets hard. But when I look at her, the noise fades out. It's just the music—still playing, still beautiful.\""
       ]
+    },
+     {
+      "id": 4,
+      "title": "Not Available",
+      "slug": "not-available",
+      "excerpt": "",
+      "image": "https://images.pexels.com/photos/3646105/pexels-photo-3646105.jpeg",
+      "theme": "Not Available",
+      "color": "text-[#FE7743]",
+      "author": "Udaya Adhikari",
+      "publishedDate": "Spring Equinox, 2024",
+      "readTime": "12 min read",
+      "genre": ["Young Adult", "Romance", "Coming-of-Age"],
+      "fullStory": "Comming Soon.....",
+      "quotes": [
+        "\"Comming Soon\"",
+        "\"Comming Soon\""
+      ]
     }
   ]
 }
