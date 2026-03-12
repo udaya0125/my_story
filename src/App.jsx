@@ -6,12 +6,15 @@ import CommingSoon from "./Pages/CommingSoon";
 import StoryPage from "./Pages/StoryPage";
 import PoemPage from "./Pages/PoemPage";
 import PoemDetails from "./Pages/PoemDetails";
+import ButtontoTop from "./Components/ButtontoTop";
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
+        <ButtontoTop/>
         <Routes>
+        
           <Route path="/" element={<Home />} />
           {/* <Route path="/story/:id" element={<StoryDetails/>} /> */}
           <Route path="/story/:slug" element={<StoryDetails/>} />
