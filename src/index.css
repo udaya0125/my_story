@@ -68,3 +68,27 @@ button:focus-visible {
 } */
 
 @import "tailwindcss";
+
+/* Custom scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #FE7743 #FFFDF6;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #FFFDF6;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #FE7743;
+  border-radius: 999px;
+  border: 2px solid #FFFDF6;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #FE7743;
+}
