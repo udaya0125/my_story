@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { motion as Motion } from 'framer-motion';
 
 const CollectionSection = ({
     title,
@@ -55,10 +56,13 @@ const CollectionSection = ({
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
                         {safeItems.map((item, index) => (
-                            <article
+                            <Motion.article
                                 key={item.id ?? index}
-                                className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-700 ease-out flex flex-col reveal-slide-up"
-                                style={{ animationDelay: `${index * 0.15}s` }}
+                                className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-700 ease-out flex flex-col"
+                                initial={{ opacity: 0, y: 28, scale: 0.985 }}
+                                whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                                viewport={{ once: true, amount: 0.2 }}
+                                transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1], delay: index * 0.08 }}
                             >
                                 <div className="relative h-64 w-full overflow-hidden">
                                     <div className="absolute inset-0 bg-gradient-to-t from-[#2E2A28] via-transparent to-transparent opacity-60 z-10"></div>
@@ -101,7 +105,7 @@ const CollectionSection = ({
                                         </Link>
                                     </div>
                                 </div>
-                            </article>
+                            </Motion.article>
                         ))}
                     </div>
                 </div>

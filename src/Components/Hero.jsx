@@ -1,10 +1,45 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { ArrowRight, Sparkles, Scroll, Compass, Users } from 'lucide-react';
+import React, { useLayoutEffect, useRef } from 'react';
+import { Sparkles, Scroll } from 'lucide-react';
+import { gsap } from 'gsap';
 
-const Hero = ({ menuOpen, onMenuToggle }) => {
+const Hero = () => {
+    const heroRef = useRef(null);
+
+    useLayoutEffect(() => {
+        const ctx = gsap.context(() => {
+            const timeline = gsap.timeline({ defaults: { ease: 'power3.out' } });
+
+            timeline
+                .from('.hero-badge', { y: -24, opacity: 0, duration: 0.6 })
+                .from('.hero-title', { y: 36, opacity: 0, duration: 0.9 }, '-=0.25')
+                .from('.hero-subtitle', { y: 28, opacity: 0, duration: 0.7 }, '-=0.55')
+                .from('.hero-scroll', { y: 16, opacity: 0, duration: 0.6 }, '-=0.3');
+
+            gsap.to('.hero-orb', {
+                yPercent: -8,
+                xPercent: 4,
+                duration: 7,
+                ease: 'sine.inOut',
+                yoyo: true,
+                repeat: -1,
+                stagger: 0.4,
+            });
+
+            gsap.to('.hero-particle', {
+                y: -18,
+                duration: 2.2,
+                ease: 'sine.inOut',
+                yoyo: true,
+                repeat: -1,
+                stagger: 0.2,
+            });
+        }, heroRef);
+
+        return () => ctx.revert();
+    }, []);
+
     return (
-        <div className="relative w-full min-h-screen overflow-hidden">
+        <div ref={heroRef} className="relative w-full min-h-screen overflow-hidden">
             {/* Background Image with Story-themed overlay */}
             <div 
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -19,13 +54,13 @@ const Hero = ({ menuOpen, onMenuToggle }) => {
 
             {/* Decorative Elements */}
             <div className="absolute inset-0 pointer-events-none">
-                <div className="absolute top-20 left-10 w-64 h-64 rounded-full bg-[#FE7743]/5 blur-3xl"></div>
-                <div className="absolute bottom-20 right-10 w-96 h-96 rounded-full bg-[#FE7743]/10 blur-3xl"></div>
+                <div className="hero-orb absolute top-20 left-10 w-64 h-64 rounded-full bg-[#FE7743]/5 blur-3xl"></div>
+                <div className="hero-orb absolute bottom-20 right-10 w-96 h-96 rounded-full bg-[#FE7743]/10 blur-3xl"></div>
                 
                 {/* Floating particles effect */}
-                <div className="absolute top-1/4 left-1/4 w-1 h-1 bg-[#FE7743]/40 rounded-full animate-pulse"></div>
-                <div className="absolute top-3/4 left-2/3 w-2 h-2 bg-[#FE7743]/30 rounded-full animate-pulse delay-300"></div>
-                <div className="absolute top-1/2 right-1/4 w-1.5 h-1.5 bg-[#FE7743]/40 rounded-full animate-pulse delay-700"></div>
+                <div className="hero-particle absolute top-1/4 left-1/4 w-1 h-1 bg-[#FE7743]/40 rounded-full"></div>
+                <div className="hero-particle absolute top-3/4 left-2/3 w-2 h-2 bg-[#FE7743]/30 rounded-full"></div>
+                <div className="hero-particle absolute top-1/2 right-1/4 w-1.5 h-1.5 bg-[#FE7743]/40 rounded-full"></div>
             </div>
 
             {/* Content Container - Epic Story Theme */}
@@ -33,7 +68,7 @@ const Hero = ({ menuOpen, onMenuToggle }) => {
                 <div className="w-full max-w-7xl mx-auto text-center">
                     
                     {/* Badge/Story Label */}
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[#FE7743]/30 bg-[#FE7743]/10 backdrop-blur-sm mb-6 sm:mb-8 md:mb-12 animate-fade-in">
+                    <div className="hero-badge inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[#FE7743]/30 bg-[#FE7743]/10 backdrop-blur-sm mb-6 sm:mb-8 md:mb-12">
                         <Scroll className="w-4 h-4 text-[#FE7743]" />
                         <span className="text-[#FE7743] text-xs sm:text-sm font-light tracking-[0.2em] uppercase">
                             An Epic Tale Unfolds
@@ -42,7 +77,7 @@ const Hero = ({ menuOpen, onMenuToggle }) => {
                     </div>
 
                     {/* Main Title - Whispers of the Forgotten */}
-                    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif text-white mb-4 sm:mb-6 md:mb-8 tracking-wider animate-slide-up">
+                    <h1 className="hero-title text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif text-white mb-4 sm:mb-6 md:mb-8 tracking-wider">
                         Whispers of
                         <span className="block text-[#FE7743] mt-2 text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
                             the Forgotten
@@ -50,7 +85,7 @@ const Hero = ({ menuOpen, onMenuToggle }) => {
                     </h1>
 
                     {/* Subtitle/Logline */}
-                    <p className="text-white/80 text-sm sm:text-base md:text-lg lg:text-xl max-w-3xl mx-auto mb-8 sm:mb-10 md:mb-12 font-light leading-relaxed animate-slide-up delay-100">
+                    <p className="hero-subtitle text-white/80 text-sm sm:text-base md:text-lg lg:text-xl max-w-3xl mx-auto mb-8 sm:mb-10 md:mb-12 font-light leading-relaxed">
                         In a world where ancient spirits awaken and forgotten magic stirs, 
                         a prophecy long buried rises from the ashes. The journey begins now.
                     </p>
@@ -143,7 +178,7 @@ const Hero = ({ menuOpen, onMenuToggle }) => {
                     </div> */}
 
                     {/* Scroll Indicator */}
-                    <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+                    <div className="hero-scroll absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
                         <div className="flex flex-col items-center gap-2">
                             <span className="text-white/40 text-xs tracking-[0.2em] uppercase">Scroll to Explore</span>
                             <div className="w-px h-8 bg-gradient-to-b from-[#FE7743] to-transparent"></div>
@@ -151,40 +186,6 @@ const Hero = ({ menuOpen, onMenuToggle }) => {
                     </div>
                 </div>
             </div>
-
-            {/* Custom CSS Animations */}
-            <style jsx>{`
-                @keyframes fade-in {
-                    from { opacity: 0; transform: translateY(-10px); }
-                    to { opacity: 1; transform: translateY(0); }
-                }
-                
-                @keyframes slide-up {
-                    from { opacity: 0; transform: translateY(30px); }
-                    to { opacity: 1; transform: translateY(0); }
-                }
-                
-                .animate-fade-in {
-                    animation: fade-in 0.8s ease-out forwards;
-                }
-                
-                .animate-slide-up {
-                    animation: slide-up 0.8s ease-out forwards;
-                    opacity: 0;
-                }
-                
-                .delay-100 {
-                    animation-delay: 0.1s;
-                }
-                
-                .delay-300 {
-                    animation-delay: 0.3s;
-                }
-                
-                .delay-700 {
-                    animation-delay: 0.7s;
-                }
-            `}</style>
         </div>
     );
 };

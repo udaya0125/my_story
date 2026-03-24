@@ -14,10 +14,9 @@ import {
 const Navigation = ({ onMenuToggle, menuOpen: externalMenuOpen }) => {
   const [internalMenuOpen, setInternalMenuOpen] = useState(false);
   const [showNav, setShowNav] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
   const [isScrollingUp, setIsScrollingUp] = useState(false);
-  const [isAtTop, setIsAtTop] = useState(true);
   const scrollYRef = useRef(0);
+  const lastScrollYRef = useRef(0);
   const currentYear = new Date().getFullYear();
 
   // Use external prop if provided, otherwise use internal state
@@ -64,9 +63,9 @@ const Navigation = ({ onMenuToggle, menuOpen: externalMenuOpen }) => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      setIsAtTop(currentScrollY < 50);
+      const previousScrollY = lastScrollYRef.current;
 
-      if (currentScrollY > lastScrollY && currentScrollY > 100) {
+      if (currentScrollY > previousScrollY && currentScrollY > 100) {
         setShowNav(false);
         setIsScrollingUp(false);
       } else {
@@ -74,7 +73,7 @@ const Navigation = ({ onMenuToggle, menuOpen: externalMenuOpen }) => {
         setIsScrollingUp(currentScrollY > 50);
       }
 
-      setLastScrollY(currentScrollY);
+      lastScrollYRef.current = currentScrollY;
     };
 
     const throttledScrollHandler = () => {
@@ -99,7 +98,7 @@ const Navigation = ({ onMenuToggle, menuOpen: externalMenuOpen }) => {
     return () => {
       window.removeEventListener("scroll", onScroll);
     };
-  }, [lastScrollY, menuOpen]);
+  }, [menuOpen]);
 
   const menuItems = [
     {
