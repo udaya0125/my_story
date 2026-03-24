@@ -14,7 +14,7 @@ const PoemPage = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#2E2A28]/50 to-[#FFFDF6] z-10"></div>
         <img
           src="https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg"
-          alt=""
+          alt="Nature with a book"
           className="w-full h-full object-cover object-center"
         />
 

@@ -19,7 +19,7 @@ const StoryPage = () => {
         /> */}
         <img
           src="https://images.pexels.com/photos/1245040/pexels-photo-1245040.jpeg"
-          alt=""
+          alt="Open book with magical light"
           className="w-full h-full object-cover object-center"
         />
 

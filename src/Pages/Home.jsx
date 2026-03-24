@@ -5,6 +5,7 @@ import Footer from '../Components/Footer'
 import AboutUs from '../Components/AboutUs'
 import MyStory from '../Components/MyStory'
 import Poem from '../Components/Poem'
+import ChooseUs from '../Components/ChooseUs'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Hero/>
       <AboutUs/>
       <MyStory/>
+      <ChooseUs/>
       <Poem/>
       <Footer/>
     </div>
