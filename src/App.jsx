@@ -8,6 +8,8 @@ import StoryPage from "./Pages/StoryPage";
 import PoemPage from "./Pages/PoemPage";
 import PoemDetails from "./Pages/PoemDetails";
 import ButtontoTop from "./Components/ButtontoTop";
+import Navigation from "./Components/Navigation";
+import ContactUs from "./Pages/ContactUs";
 
 const pageTransition = {
   initial: { opacity: 0, y: 24, filter: "blur(2px)" },
@@ -92,6 +94,78 @@ const AnimatedRoutes = () => {
           }
         />
         <Route
+          path="/realms"
+          element={
+            <PageShell>
+              <CommingSoon />
+            </PageShell>
+          }
+        />
+        <Route
+          path="/realms/:slug"
+          element={
+            <PageShell>
+              <CommingSoon />
+            </PageShell>
+          }
+        />
+        <Route
+          path="/characters"
+          element={
+            <PageShell>
+              <CommingSoon />
+            </PageShell>
+          }
+        />
+        <Route
+          path="/characters/:slug"
+          element={
+            <PageShell>
+              <CommingSoon />
+            </PageShell>
+          }
+        />
+        <Route
+          path="/legends"
+          element={
+            <PageShell>
+              <CommingSoon />
+            </PageShell>
+          }
+        />
+        <Route
+          path="/legends/:slug"
+          element={
+            <PageShell>
+              <CommingSoon />
+            </PageShell>
+          }
+        />
+        <Route
+          path="/chronicles"
+          element={
+            <PageShell>
+              <CommingSoon />
+            </PageShell>
+          }
+        />
+        <Route
+          path="/chronicles/:slug"
+          element={
+            <PageShell>
+              <CommingSoon />
+            </PageShell>
+          }
+        />
+        <Route
+          path="/contact-us"
+          element={
+            <PageShell>
+              <ContactUs />
+            </PageShell>
+          }
+        />
+        <Route
           path="*"
           element={
             <PageShell>
@@ -108,6 +182,7 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
+       <Navigation />
         <ButtontoTop />
         <AnimatedRoutes />
       </BrowserRouter>

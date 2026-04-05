@@ -22,8 +22,7 @@ const PoemPage = () => {
           <div className="absolute top-20 left-10 w-32 h-32 rounded-full bg-[#FE7743]/10 blur-3xl animate-float-slow"></div>
           <div
             className="absolute bottom-40 right-20 w-40 h-40 rounded-full bg-[#FE7743]/10 blur-3xl animate-float-slow"
-            style={{ animationDelay: "2s" }}
-          ></div>
+            style={{ animationDelay: "2s" }}></div>
         </div>
 
         <div className="absolute bottom-0 left-0 right-0 z-20 px-4 sm:px-6 lg:px-8 pb-12 md:pb-16">
@@ -50,8 +49,8 @@ const PoemPage = () => {
             </h1>
 
             <p className="max-w-3xl mx-auto mt-10 text-[#5C5550] text-base sm:text-lg font-light leading-relaxed">
-              Let each line be a lantern. These verses hold quiet storms,
-              gentle mornings, and the music of memory.
+              Let each line be a lantern. These verses hold quiet storms, gentle
+              mornings, and the music of memory.
             </p>
           </div>
 
@@ -73,8 +72,7 @@ const PoemPage = () => {
                   <article
                     key={poem.id}
                     className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-700 ease-out flex flex-col reveal-slide-up"
-                    style={{ animationDelay: `${index * 0.15}s` }}
-                  >
+                    style={{ animationDelay: `${index * 0.15}s` }}>
                     <div className="relative h-64 w-full overflow-hidden">
                       <div className="absolute inset-0 bg-gradient-to-t from-[#2E2A28] via-transparent to-transparent opacity-60 z-10"></div>
                       <img
@@ -105,8 +103,7 @@ const PoemPage = () => {
                       <div className="mt-6 flex items-center justify-between">
                         <Link
                           to={`/poem/${poem.slug}`}
-                          className="group/link inline-flex items-center gap-3 text-[#FE7743] hover:text-[#FE7743]/80 text-sm font-mono tracking-wider transition-all duration-300"
-                        >
+                          className="group/link inline-flex items-center gap-3 text-[#FE7743] hover:text-[#FE7743]/80 text-sm font-mono tracking-wider transition-all duration-300">
                           <span>READ POEM</span>
                           <span className="transform group-hover/link:translate-x-1.5 group-hover/link:-translate-y-1 transition-transform duration-300">
                             â†’
@@ -163,8 +160,7 @@ const PoemPage = () => {
           }
 
           .reveal-fade {
-            animation: reveal-fade 1s cubic-bezier(0.23, 1, 0.32, 1)
-              forwards;
+            animation: reveal-fade 1s cubic-bezier(0.23, 1, 0.32, 1) forwards;
           }
 
           .reveal-slide-up {

@@ -11,7 +11,7 @@ const Poem = () => {
             description="Let each line be a lantern. These verses hold quiet storms, gentle mornings, and the music of memory."
             sectionTitle="Verses of Heart & Horizon"
             items={poems}
-            badge={{ type: 'count', label: `${poems.length} poems` }}
+           badge={{ type: 'link', label: 'View All Stories', to: '/poem' }}
             linkLabel="READ POEM"
             linkClassName="text-[#FE7743] text-xs font-mono tracking-wider"
             getLink={(poem) => `/poem/${poem.slug}`}

@@ -10,7 +10,7 @@ import ChooseUs from '../Components/ChooseUs'
 const Home = () => {
   return (
     <div>
-      <Navigation/>
+      {/* <Navigation/> */}
       <Hero/>
       <AboutUs/>
       <MyStory/>
